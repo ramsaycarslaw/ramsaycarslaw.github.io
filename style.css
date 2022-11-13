@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 /* GENERAL */
 * {
@@ -10,16 +11,55 @@
   text-align: center;
 }
 
+.center-box {
+  margin: auto;
+  width: 80%;
+  padding: 2px;
+}
+
 /* DARK */
+
 body {
   background-color: #0D1117;
   color: #D3D1CD;
 }
 
+i {
+  color: #FF7B72;
+}
+
+b {
+  color: #A5D6FF;
+}
+
+a {
+  color: #D2A8FF;
+}
+
+.comment {
+  color: #B0BEC5;
+}
+
 /* LIGHT */
 @media screen and (prefers-color-scheme: light) {
   body {
-    background-color: #D3D1CD;
-    color: #0D1117;
+color: #37474F;
+       background-color: #FFFFFF;
+  }
+
+  i {
+color: #FF6F00;
+  }
+
+  b {
+color: #673AB7;
+  }
+
+  a {
+   color: #FFAB91; 
+  }
+
+  .comment {
+    color: #ECEFF1; 
   }
 }
