@@ -1,48 +1,5 @@
-@font-face {
-  font-family: Cascadia;
-  src: url("Cascadia.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-body {
-  font-family: Cascadia, monospace;
-  text-align: justify;
-  padding-left: 20%;
-  padding-right: 20%;
-  font-size: 18pt;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-align: center;
-  font-family: Cascadia, monospace;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-}
-
-li a {
-  text-decoration: none;
-}
-
-li a:hover {
-  text-decoration: #707070;
-}
-
-.snippet {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-color: lightgray;
-  font-family: "Courier New", Courier, monospace;
-  text-align: justify;
-  padding-left: 5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-radius: 20px;
-  font-size: 14pt;
+* {
+  font-family: 'Roboto Mono', monospace;
 }

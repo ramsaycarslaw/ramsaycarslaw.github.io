@@ -1,82 +1,8 @@
 <!DOCTYPE html>
 <head>
-  <title>Gomatrix</title>
+  <title>ramsay carslaw</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <h1 class="title">Gomatrix.</h1>
-
-  <p>
-    Gomatrix is an open source linear albebra library for the Go programming
-    language. Gomatrix has a focus on simple and efficient syntax to perform the
-    functions it offers. It is written entirely in Go and is licenced under the
-    GPL v3.0 liscence.
-  </p>
-  <br />
-  <h2>Table Of Contents</h2>
-  <ul class="toc">
-    <li><a href="#Types">Types</a></li>
-    <li><a href="#Operations">Operations</a></li>
-  </ul>
-  <br />
-  <h2 id="Types">
-    Types
-  </h2>
-  <p>
-    Gomatrix adds some new types to Go, namely Matrix and Vector. Matrix can be
-    used to define a mathematical matrix in Go. Each matrix has a 3 fields,
-    Rows, Cols (uint) and Data ([]float64). Rows and Cols describe the
-    dimensions of the matrix and data the contents.
-  </p>
-  <div class="snippet">
-    <p>
-      type Matrix struct {<br />
-      Rows uint,<br />
-      Cols uint,<br />
-      Data []float64,<br />
-      }
-    </p>
-  </div>
-  <p>
-    Vector is similar to Matrix except it has no need for dimensions as the
-    Vector can only be 1 dimesnional. For this reason the Vector struct is:
-  </p>
-  <div class="snippet">
-    <p>
-      type Vector struct {<br />
-      Data []float64,<br />
-      }
-    </p>
-  </div>
-  <h2 id="Operations">Operations</h2>
-  <p>
-    Gomatrix can perform many operations such as the basic arithmatic for
-    vectors and matrices.
-  </p>
-  <h3>Multiplication</h3>
-  <p>
-    Gomatrix can perform many kinds of multiplication. For example, dot finds
-    the multiple of two matrices
-  </p>
-  <div class="snippet">
-    <p>
-      func (matrix1 Matrix) Dot(matrix2 Matrix) (result Matrix, err error) {}
-    </p>
-  </div>
-  <p>
-    Dot takes two matrices in the form A.Dot(B) and returns an answer and an
-    error, if it has worked the value of err should be nil. Gomatrix can also do
-    element wise multiplication with MulElm (MulElm has the same inputs and
-    returns as Dot). In addition Gomatrix can transform a vector by a matrix
-    with MatDotVec.
-  </p>
-  <div class="snippet">
-    <p>
-      func (matrix Matrix) MatDotVec(vector Vector) (result Vector, err error)
-    </p>
-  </div>
-  <p>
-    This function can be used to transform a cartesean point by some matrix by
-    using the point as vector with 2 entries.
-  </p>
+  <h1>ramsay carslaw</h1>
 </body>
