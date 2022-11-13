@@ -2,5 +2,8 @@
 
 * {
   font-family: 'Roboto Mono', monospace;
-  color: blue;
+}
+
+#title {
+  text-align: center;
 }
