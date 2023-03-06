@@ -1,0 +1,57 @@
+#+TITLE: How I Do My Computing
+#+AUTHOR: Ramsay Carslaw
+
+* Introduction
+
+I decided to make this document on how I use my computer, in the hopes
+it is useful to someone.
+
+* System and Tooling
+
+I use macOS for everything. I find the built in Apple apps to be more
+than good enough for most tasks. There are a few execptions. The
+default window manager is horrible, for this reason I use rectangle to
+control my windows.
+
+* Principles
+
+I follow some general principles when I use my computer
+
+** 1. Avoid the mouse
+
+The mouse is slower for almost every task, try and avoid using it.
+
+** 2. Avoid fullscreen
+
+Use vertical windows on the homepage, managed with Rectangle. This way
+I can use the keyboard to _temporarily_ enlarge windows and then snap
+them back. Opening multiple windows is better then clicking on a large
+full screen window.
+
+** 3. Minimise Apps
+
+It is better to have one program you know well (vim, emacs) then one
+for each problem (IntelliJ, CLion etc). You can learn this program
+more deeply.
+
+** 4. Configurability is king
+
+The best programs are the ones that let you customise them completely
+
+** 5. Plain text is king
+
+It is always better to work with plain text files then using non
+standard file formats, the exception being PDF.
+
+** 6. Consistency
+
+Try and use the same colorscheme everywhere, I use github dark. Also
+try to match font sizes, font faces and anything else.
+
+** 7. Startup time is important
+
+Every tool you use should be able to have an instance open near instantly and be closed quickly. Every tool you use should be able to be launched from the command line. vim is perfect for this, as is server mode emacs. On macOS the ~open~ command is particallarly good for this.
+
+** 8. Splash screens are evil
+
+Delete any app that has a startup window before you actually are able to use the app.

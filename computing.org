@@ -1,0 +1,88 @@
+#+TITLE: How I Do My Computing
+#+AUTHOR: Ramsay Carslaw
+
+* Introduction
+
+I decided to make this document on how I use my computer, in the hopes
+it is useful to someone.
+
+* System and Tooling
+
+I use macOS for everything. I find the built in Apple apps to be more
+than good enough for most tasks. There are a few execptions. The
+default window manager is horrible, for this reason I use rectangle to
+control my windows.
+
+* Principles
+
+I follow some general principles when I use my computer
+
+** Prefer the keyboard
+
+The mouse is slower for almost every task, try and avoid using it.
+
+** Avoid fullscreen
+
+Use vertical windows on the homepage, managed with Rectangle. This way
+I can use the keyboard to _temporarily_ enlarge windows and then snap
+them back. Opening multiple windows is better then clicking on a large
+full screen window.
+
+** Minimise Apps
+
+It is better to have one program you know well (vim, emacs) then one
+for each problem (IntelliJ, CLion etc). You can learn this program
+more deeply and become more efficient.
+
+** Configurability above all else
+
+The best programs are the ones that let you customise them completely.
+Any program that isn't configurable will eventually slow you down.
+
+** Plain text is king
+
+It is always better to work with plain text files then using non
+standard file formats, the exception being PDF.
+
+** Consistency
+
+Try and use the same colorscheme everywhere, I use github dark. Also
+try to match font sizes, font faces and anything else. I also use
+ vim keys everywhere. Keeping these things consistent removes distractions
+ when you are focusing and switching between tasks.
+
+** Startup time is important
+
+Every tool you use should be able to have an instance open near
+instantly and be closed quickly. Every tool you use should be able to
+be launched from the command line. vim is perfect for this, as is
+server mode emacs. On macOS the ~open~ command is particularly good
+for this.
+
+*** Splash screens are evil
+
+Delete any app that has a startup window before you actually are able to use the app.
+
+*** Emacs client
+
+Use emacs client on macos
+
+** Anesthetics Matter
+
+Much like you would prefer to work at a desk with a great view then a
+desk facing a wall, how your programs look and feel will affect your
+productivity. Customise them to look pleasing.
+
+** Separate 'light' and 'heavy' tasks
+
+I have a chain of command for which program is used for an edit. If
+it's modifying one file within a small projetct I use vim with an
+extremely minimal config (no plugins). For more IDE like features
+I use neovim or emacs with a complete LSP config.
+
+** Efficiency is everything
+
+Try and learn lots of features from your editor. It is not enough to
+minimise keystrokes, you must also minimise thought about the
+specifics of editing. Like playing an instrument you want to focus
+on the music not your fingers! 
