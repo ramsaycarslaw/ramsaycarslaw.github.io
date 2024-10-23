@@ -138,6 +138,12 @@ img {
         aspect-ratio: 3 / 2;
         object-fit: cover;
         border-radius: var(--gallery-item-border-radius);
+        margin-bottom: 10px;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s;
     }
 }
 
