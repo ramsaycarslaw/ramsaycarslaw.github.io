@@ -79,6 +79,12 @@ img {
     gap: 10%;
 }
 
+@media (max-width: 800px) {
+    .not_mobile {
+        display: none;
+    }
+}
+
 
 .link {
     font-family: 'Roboto Slab', serif;
